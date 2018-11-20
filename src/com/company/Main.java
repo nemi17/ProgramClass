@@ -29,12 +29,15 @@ public class Main {
         gradeDMinus = (62 - 60);
         int gradeF;
         gradeF = (60 - 0);
-        int i;
+        int 0;
 
+        i = 0;
         Scanner console = new Scanner(System.in);
         System.out.println("Enter a score:");
-        i = userInput.Nextint();
+        studentGrade = userInput.Nextint();
         String userInput = console.nextLine();
+
+
 
         }
     }
