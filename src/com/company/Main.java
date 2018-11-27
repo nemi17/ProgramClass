@@ -29,16 +29,62 @@ public class Main {
         gradeDMinus = (62 - 60);
         int gradeF;
         gradeF = (60 - 0);
-        int 0;
 
-        i = 0;
-        Scanner console = new Scanner(System.in);
-        System.out.println("Enter a score:");
-        studentGrade = userInput.Nextint();
+        Scanner console = Scanner new();
+        System.out.println("Enter student score:");
         String userInput = console.nextLine();
 
+        try {
 
+        }
+        catch (gradeA) {
+            System.out.println("Your Grade: A");
 
+        }
+        catch (gradeAMinus) {
+            System.out.println("Your Grade: A-");
+
+        }
+        catch (gradeBPlus) {
+            System.out.println("Your Grade: B+");
+
+        }
+        catch (gradeB) {
+            System.out.println("Your Grade: B");
+
+        }
+        catch (gradeBMinus) {
+            System.out.println("Your Grade: B-");
+
+        }
+        catch (gradeCPlus) {
+            System.out.println("Your Grade: C+");
+
+        }
+        catch (gradeC) {
+            System.out.println("Your Grade: C");
+
+        }
+        catch (gradeCMinus) {
+            System.out.println("Your Grade: C-");
+
+        }
+        catch (gradeDPlus) {
+            System.out.println("Your Grade: D+");
+
+        }
+        catch (gradeD) {
+            System.out.println("Your Grade: D");
+
+        }
+        catch (gradeDMinus) {
+            System.out.println("Your Grade: D-");
+
+        }
+        catch (gradeF) {
+            System.out.println("Your Grade: F");
+
+        }
         }
     }
 }
