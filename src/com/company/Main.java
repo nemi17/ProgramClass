@@ -31,21 +31,19 @@ public class Main {
         gradeF = (60 - 0);
 
         Scanner console = Scanner new();
-        System.out.println("Enter student score:");
+        System.out.print("Enter student score:");
         String userInput = console.nextLine();
 
-        try {
 
-        }
-        catch (gradeA) {
+        if userInput = (100 - 93) {
             System.out.println("Your Grade: A");
 
         }
-        catch (gradeAMinus) {
+        else (92 - 90) {
             System.out.println("Your Grade: A-");
 
         }
-        catch (gradeBPlus) {
+        else (87) {
             System.out.println("Your Grade: B+");
 
         }
@@ -84,7 +82,6 @@ public class Main {
         catch (gradeF) {
             System.out.println("Your Grade: F");
 
-        }
         }
     }
 }
