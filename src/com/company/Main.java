@@ -10,22 +10,25 @@ public class Main {
         System.out.println("Enter a number");
 
         try {
-            double num1 = Double.parseDouble(scanner.nextLine());
+            double input1 = Double.parseDouble(scanner.nextLine());
             System.out.println("Enter a number");
 
-            double num2 = Double.parseDouble(scanner.nextLine());
+            double input2 = Double.parseDouble(scanner.nextLine());
             System.out.println("Enter a number");
 
-            double num3 = Double.parseDouble(scanner.nextLine());
+            double input3 = Double.parseDouble(scanner.nextLine());
             System.out.println("Enter a number");
 
-            double num4 = Double.parseDouble(scanner.nextLine());
+            double input4 = Double.parseDouble(scanner.nextLine());
             System.out.println("Enter a number");
 
-            double total = num1 + num2 + num3 + num4;
+            double total = input1 + input2 + input3 + input4;
             System.out.println("Your total is: " + total);
+
         } catch (NumberFormatException ex) {
-            System.out.println("Is not a number.");
+            System.out.println(ex + "is not an input");
+            return;
         }
+
     }
 }
